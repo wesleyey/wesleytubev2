@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { numberTypeAnnotation } from "babel-types";
 
 const VideoSchema = new mongoose.Schema({
   fileUrl: {
